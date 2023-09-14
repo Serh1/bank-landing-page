@@ -1,0 +1,163 @@
+#home {
+  height: calc(100vh - 84px);
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  flex-shrink: 0;
+  color: white;
+  display: flex;
+  flex-direction: space-between;
+  gap: 259px;
+}
+
+.mainContainer {
+  width: 586px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px; /* 125% */
+  letter-spacing: -1.12px;
+}
+
+.description {
+  color: #b6b3eb;
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.buttonList {
+  display: flex;
+  gap: 32px;
+}
+
+.openBtn {
+  display: inline-flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #110c64;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.learnBtn {
+  display: inline-flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: none;
+  color: white;
+}
+
+.statsList {
+  display: flex;
+  gap: 52px;
+}
+
+.statNumber {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.statArea {
+  color: #b6b3eb;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.imageContainer {
+  position: relative;
+  width: 267.852px;
+  height: 541.985px;
+  flex-shrink: 0;
+}
+
+.imageContainer img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.internalImg {
+  width: 267.852px;
+  height: 541.985px;
+}
+.phoneImage {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  width: 260px;
+  translate: 1% 1%;
+  height: 533px;
+  flex-shrink: 0;
+  object-fit: hidden;
+  border-radius: 10%;
+}
+
+.card {
+  width: 342px;
+  height: 170px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: rgba(14, 10, 95, 0.6);
+  translate: 20% 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2em;
+}
+
+.card .cardNumber {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.519px; /* 153.243% */
+  letter-spacing: 1.6px;
+}
+
+.cardDetails {
+  display: flex;
+  justify-content: space-between;
+  bottom: 25px;
+}
+
+.card .cardLimit {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24.519px; /* 153.243% */
+  text-transform: uppercase;
+}
+
+.card .cardValid {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.519px; /* 204.324% */
+  text-transform: uppercase;
+}

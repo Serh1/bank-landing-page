@@ -1,0 +1,11 @@
+#sponsors {
+  background: rgba(93, 113, 240, 0.425);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 84px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 195px;
+}
