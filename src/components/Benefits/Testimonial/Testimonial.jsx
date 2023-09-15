@@ -30,11 +30,15 @@ const Testimonial = (User) => {
         absolute game-changer. It's incredibly user-friendly and has made
         managing my finances a breeze."
       </div>
+
       <div className="userCard">
-        <div img="userImg"></div>
-        <div img="userName"></div>
-        <div img="date"></div>
-        <div img="stars"></div>
+        <div className="userImg">{User.img}</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          <div className="userName">Jerry Helfer</div>
+          <div className="date">24 Oct, 2023</div>
+          <div className="star">⭐</div>
+          {/* 5 stars */}
+        </div>
       </div>
     </div>
   );
