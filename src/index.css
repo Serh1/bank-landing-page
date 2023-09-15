@@ -6,6 +6,16 @@
   font-weight: 400;
   color-scheme: light dark;
   color: white;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1408px;
+  margin: 0 auto;
+  /* max-height: 960px; */
+}
+.bgColor {
+  background: linear-gradient(45deg, #1b13a6 49.59%, #443cdf 88.57%), #fff;
 }
 
 * {
@@ -38,7 +48,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
+  color: #110c64;
   cursor: pointer;
   transition: border-color 0.25s;
 }

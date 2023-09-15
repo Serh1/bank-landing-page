@@ -1,13 +1,15 @@
 #home {
-  height: calc(100vh - 84px);
-  max-width: 1200px;
+  min-height: calc(100vh - 84px);
   width: 100%;
-  margin: 0 auto;
   flex-shrink: 0;
   color: white;
   display: flex;
   flex-direction: space-between;
   gap: 259px;
+  max-width: 1408px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
 }
 
 .mainContainer {
