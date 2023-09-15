@@ -6,17 +6,19 @@ import HomePage from "./components/HomePage/HomePage";
 import NavBar from "./components/NavBar/NavBar";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Benefits from "./components/Benefits/Benefits";
+import Experience from "./components/Experience/Experience";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="container">
+      <div className="bgColor">
         <NavBar />
         <HomePage />
       </div>
       <Sponsors />
       <Benefits />
+      <Experience />
     </>
   );
 }
