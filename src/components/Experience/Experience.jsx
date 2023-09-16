@@ -1,5 +1,8 @@
 import React from "react";
 import "./Experience.css";
+import Details from "./Details/Details";
+import Point from "./Point/Point";
+import DateCard from "./DateCard/DateCard";
 
 const Experience = () => {
   return (
@@ -19,7 +22,26 @@ const Experience = () => {
               </div>
             </div>
           </div>
-          <div className="experienceContainer"></div>
+          <div className="overlap">
+            <div className="line"></div>
+            <div className="experienceContainer">
+              <div className="component">
+                <Details />
+                <Point />
+                <DateCard />
+              </div>
+              <div className="component reverse">
+                <Details />
+                <Point />
+                <DateCard />
+              </div>
+              <div className="component">
+                <Details />
+                <Point />
+                <DateCard />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,17 @@
+#dateCard {
+  color: var(--Text, #1d1c31);
+  font-family: Plus Jakarta Sans;
+  background-color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  width: 234px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--ffffff, #fff);
+}

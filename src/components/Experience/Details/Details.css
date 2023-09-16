@@ -1,0 +1,32 @@
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  min-width: 220px;
+  height: 184px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 32px 64px;
+  gap: 24px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.text {
+  color: var(--ffffff, #fff);
+  font-family: Plus Jakarta Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

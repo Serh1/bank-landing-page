@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Sponsors from "./components/Sponsors/Sponsors";
 import Benefits from "./components/Benefits/Benefits";
 import Experience from "./components/Experience/Experience";
+import Footer from "./components/Footer/Footer";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -19,6 +20,7 @@ function App() {
       <Sponsors />
       <Benefits />
       <Experience />
+      <Footer />
     </>
   );
 }
