@@ -5,7 +5,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div className="wrapper">
-      <div className="navbar">
+      <div id="navbar">
         <div className="logo">LegacyLine.</div>
         <div className="navbarItems">
           <a to="/" className="navbarItem">
